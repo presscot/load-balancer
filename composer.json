@@ -1,0 +1,25 @@
+{
+    "name": "press/loadbalancer",
+    "license": "proprietary",
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "psr/http-message": "^1.0",
+        "guzzlehttp/psr7": "^1.6",
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Press\\LoadBalancer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Press\\LoadBalancer\\Tests\\": "tests/"
+        }
+    }
+}
